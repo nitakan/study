@@ -66,4 +66,5 @@ Android Studio 2.2から導入されたEspresso Test Recorderによって、テ�
     * 確認手段が少ない
     * Undo不可
     * landscape非対応
-    
+
+* Espresso-Commons
