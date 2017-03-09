@@ -8,6 +8,8 @@ room3
 * Speaker   
 @yanzm
 
+http://y-anz-m.blogspot.jp/2017/03/droidkaigi-2017_9.html
+
 ## Description
 MVPだのクリーンアーキテクチャだのさまざまなアーキテクチャをAndroidに適用してみた話が花盛りですが、
 他のプラットフォームでうまくいったアーキテクチャをAndroidに適用してうまくいくでしょうか？
