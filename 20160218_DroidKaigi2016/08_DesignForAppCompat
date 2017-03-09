@@ -1,0 +1,45 @@
+# 
+@yamzm
+
+## Themeとスタイルのおさらい
+* スタイル
+	* 書くViewに適応させるデザイン 	
+* テーマ
+	* 基礎となるスタイルの集合
+
+### styleの継承
+* .でつなぐ
+* parentを指定する
+
+## AppCompatのカスタマイズ
+### とは？
+Android 5.0未満でもMaterialDesignを実現できるライブラリ
+
+* AppCompatを利用する
+	* AppCompatをExtends
+	* Themeに `Theme.AppCmpat.*` を指定する
+
+### DialogでもActionBar
+
+`android.support.v7.widget.Toolbar` を利用する
+
+### Appで用意するテーマ
+４つ
+黒系と白系
+
+### AppCompatのTextColor
+灰色は使わない→透明度を落とす
+
+### Material Design typography
+
+* English and English-like scripts
+* Dense scripts
+	* Japanese
+* Tall scripts
+
+### AppCompatのWidget用テーマ属性
+
+### CustomViewを作るとき
+`AppCompat.AppCompatText`のようなAppCompatで用意されているクラスを利用する
+
+
