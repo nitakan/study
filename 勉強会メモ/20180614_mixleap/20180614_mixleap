@@ -1,0 +1,117 @@
+# Osaka Mix Leap Study #16 - Android Jetpack 勉強会
+
+
+Time table
+
+|Time|Title|Author|
+|--|--|---|
+|18:30-19:00|受付||
+|19:00-19:10|Mix Leapの説明|岡田 信夫 (ヤフー株式会社)
+|19:10-19:30|「AndroidJetpack概要 ＆旧AACの紹介」|中谷 克紀 (GDG神戸)|
+|19:30-19:40|休憩	||
+|19:40-20:00|「Navigation Architecture Component」|河本 泰孝(株式会社tech vein(テックベイン))|
+|20:00-20:20|「Deep Dive into Slice」|森 洋之 (ヤフー株式会社)|
+|20:20-20:45|LT||
+|20:45-21:30|懇親会|||
+
+
+## AndroidJetpack概要 ＆旧AACの紹介
+Spend about 7years from v2.3.
+
+Difficulties of Android development
+* Old Java
+-> Kotlin
+
+* Version Fragment
+-> Support Library
+
+* Lifecycle
+ * EventBus
+ * Rx*
+ * Icepick
+
+Stop to update OSS.
+
+Android jetpack.
+
+
+* 開発速度向上
+* ボイラープレート削減
+* アプリの高品質化
+
+新しい技術ではなく、既存の技術を再モデル化
+
+Change package name for Support Library
+
+* LiveData
+Lifecycleを意識しなくても問題なく使用できる
+
+ * with DataBinding
+ * with RecyclerView
+   ListAdapter in Support library
+   `android.support.v7.recyclerview.extensions.ListAdapter`
+
+* ViewModel in jetpack
+  * Don't touch UI component.
+
+* Room
+  * Simple SQL interface
+  * SQLエラーを出してくれる
+  * not execute in UI thread.
+
+
+
+
+## Navigation Architecture Component
+Google I/O 2018
+
+* About Navigation
+Handle everything needed for in-app navigation
+
+* What happy is Navigation
+
+  * Fragment is tooooo difficult.
+
+  * Navigation test
+
+* What is Navigation
+  * implementation fragment
+    * with Navigation UI
+    * KTX
+  * Navigation Graph
+    * Distination
+      Activity or fragment
+    * Navigation Editor
+      Designing Distinations by UI
+      Likes Storyboard of XCode
+    * write XML
+
+  * Activity's role
+    * NavHost
+  * navigation-ui
+* Data transfer
+  * Bundle
+  * Safe Args Gradle Plugin
+
+* DeepLink
+  * URL Scheme
+  * Notifications
+  * Must edit manifest
+
+* What it will add future ?
+  * startActivityForResult
+  * transfer DialogFragment
+  * Support up button during multi activities
+
+
+## Deep Dive into Slice
+
+## LT
+### SMART SPEAKER
+* Dialogflow
+
+### ML Kit
+Machine Learn SDK for Firebase
+
+### Standalone VR
+Oculus GO
